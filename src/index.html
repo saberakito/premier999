@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en" id="content_html">
+<head>
+  <meta charset="utf-8">
+  <title>TSSTAR88</title>
+  <meta name="description" content="TSSTAR88 CASINO ONLINE">
+  <meta name="keyword" content="TSSTAR88,CASINO,ONLINE,CASINO ONLINE">
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Kanit:300,400,500" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="/assets/css/HoldOn.min.css" rel="stylesheet">
+  <script src="/assets/js/HoldOn.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.login_btn').on('click touchstart', function() {
+        if($('#txtUsername').val()==''||$('#txtUsername').val()==null){
+          alert('กรุณากรอก Username');
+          return;
+        }else if($('#txtPassword').val()==''||$('#txtPassword').val()==null){
+          alert('กรุณากรอก Password');
+          return;
+        }
+        submitForm('');
+      });
+      
+    });
+    function submitForm(func){
+      testHoldon('sk-circle','กำลังเข้าสู่ระบบ');
+        $.ajax({
+            method: "GET",
+            url: "http://35.198.197.202:3000/getContent/getKey2",
+            success: function(data ){
+              var objArray = JSON.parse(data);
+              var date = new Date();
+              var minutes = 20;
+              date.setTime(date.getTime() + (minutes * 60 * 1000));
+              Cookies.set('key_login', objArray.key, { expires : date });
+              var Username = $("#txtUsername").val();
+              var txtPassword = $("#txtPassword").val();
+              var data_ = "<form name='flogin' id='flogin' method='post' action='http://mvegus168.memberbet.net/LoginController'><input type='hidden' name='user' value='"+Username+"' /><input type='hidden' name='pass' value='"+txtPassword+"' /><input type='hidden' name='lang' value='' /><input type='hidden' name='host' value='' /><input type='hidden' name='weblocation' value='SP2' /><input type='hidden' name='cross' value='"+objArray.key+"' /></form>";
+              
+              document.write(data_);
+              login_btn();
+              HoldOn.close();
+            },
+            fail: function(xhr, textStatus, errorThrown){
+              HoldOn.close();
+            }
+        });
+      function login_btn(){
+        document.flogin.submit();
+      }
+    }
+    var theForm;
+    var theForm2;
+    setTimeout(function(){
+      var theForm = document.forms['form2'];
+      if (!theForm) {
+          theForm = document.form2;
+      }
+      
+
+      var theForm2 = document.forms['form3'];
+        if (!theForm2) {
+          theForm2 = document.form3;
+        }
+      
+    },500);
+    
+    function doPostBackBetufa(eventTarget, eventArgument) {
+      theForm = document.forms['form2'];
+        if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+            theForm.__EVENTTARGET.value = eventTarget;
+            theForm.__EVENTARGUMENT.value = eventArgument;
+            theForm.submit();
+        }
+    }
+
+    function doPostBackBetufa2(eventTarget, eventArgument) {
+      theForm2 = document.forms['form3'];
+        if (!theForm2.onsubmit || (theForm2.onsubmit() != false)) {
+          theForm2.__EVENTTARGET.value = eventTarget;
+          theForm2.__EVENTARGUMENT.value = eventArgument;
+          theForm2.submit();
+        }
+    }
+
+
+
+
+
+
+
+
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    
+    $(document).ready(function($) {
+      setTimeout(function(){
+        $('.links').click(function() {
+          $("#myTopnav").removeClass("responsive");
+        });
+      },1000);
+      
+      $('.close-qr').click(function(){
+        Cookies.set('close-qr', true);
+        $(".qr-popup").css("display","none");
+      });
+      if(Cookies.get('close-qr')){
+        $(".qr-popup").css("display","none");
+      }else{
+        $(".qr-popup").css("display","block");
+        $(".close-qr").css("display","block");
+      }
+      
+    });
+    </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  <link href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <style>
+    .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+        border-bottom-right-radius: unset;
+    }
+    .ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+        border-bottom-left-radius: unset;
+    }
+    .ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+        border-top-right-radius: unset;
+    }
+    .ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+        border-top-left-radius: unset;
+    }
+    .ui-widget-header {
+      border: 0px solid #aaaaaa;
+    }
+    .ui-widget-content {
+        border: 0px solid #aaaaaa;
+        background: #FD8F00;
+        color: #222222;
+    }
+    .ui-widget.ui-widget-content {
+        border: 0px solid #d3d3d3;
+    }
+    .ui-widget-header {
+        border: 0px solid #aaaaaa;
+        font-family: Roboto, "Helvetica Neue", sans-serif;
+        background: black ;
+        color: white;
+        font-weight: bold;
+    }
+    </style>
+  <script>
+    $( function() {
+      
+    } );
+    // function testHoldon(themeName,dataText){
+    //     HoldOn.open({
+    //         theme:themeName,
+    //         message:"<h4>"+dataText+"</h4>"
+    //     });
+    // }
+    function validURL(str) {
+      var pattern = new RegExp('^(https?:\\/\\/)?'+ // protocol
+        '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|'+ // domain name
+        '((\\d{1,3}\\.){3}\\d{1,3}))'+ // OR ip (v4) address
+        '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*'+ // port and path
+        '(\\?[;&a-z\\d%_.~+=-]*)?'+ // query string
+        '(\\#[-a-z\\d_]*)?$','i'); // fragment locator
+      return !!pattern.test(str);
+    }
+    </script>
+</head>
+<body>
+    
+  <app-root></app-root>
+  
+  
+</body>
+</html>

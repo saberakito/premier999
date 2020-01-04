@@ -1,0 +1,37 @@
+<div class="topnav" id="myTopnav">
+    <div class="container">
+        <ng-container *ngFor="let menu of menus; index as i; first as isFirst;let l = count">
+            <a *ngIf="i==0" [routerLinkActive]="['active-menu']"  [routerLinkActiveOptions]="{exact:true}" routerLink="/home" class="cal_{{l+default_menu}} links active ">หน้าแรก</a>
+            
+            <a  [routerLinkActiveOptions]="{exact:true}" [routerLinkActive]="['active-menu']" routerLink="/page/{{menu.menu_route}}" class="cal_{{l+default_menu}} links active ">{{menu.menu_name}}</a>
+            <a *ngIf="i==2" [routerLinkActiveOptions]="{exact:true}" [routerLinkActive]="['active-menu']" routerLink="/promotion" class="cal_{{l+default_menu}} links active ">โปรโมชั่น</a>
+            
+
+        </ng-container>
+        
+    </div>
+            
+            <!-- <ng-container *ngIf='login_status_check!="1"'>
+                <div class="link_nav cal_4">
+                    <a [routerLinkActive]="['active-menu']"  [routerLinkActiveOptions]="{exact:true}" routerLink="/promotion" class=" links active ">ค่าบริการ</a>
+                </div>
+                <div class="link_nav cal_4">
+                    <a [routerLinkActive]="['active-menu']"  [routerLinkActiveOptions]="{exact:true}" routerLink="/register" class=" links active ">สมัครสมาชิก</a>
+                </div>
+                <div class="link_nav cal_4">
+                    <a [routerLinkActive]="['active-menu']"  [routerLinkActiveOptions]="{exact:true}" routerLink="/login" class=" links active ">เข้าสู่ระบบ</a>
+                </div>
+            </ng-container> -->
+            
+      <!-- <a [routerLinkActive]="['active-menu']" [routerLinkActiveOptions]="{exact:true}" href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+      </a> -->
+  </div>
+
+  <div class="topnav_mobile" id="myTopnav">
+      <ng-container *ngFor="let menu of menus; index as i; first as isFirst;let l = count">
+          <a [routerLinkActive]="['active-menu']" *ngIf="i==0" [routerLinkActiveOptions]="{exact:true}" routerLink="/home" class="btn_mobile btn  links active cal_{{l+2}}">หน้าหลัก</a>
+          <a [routerLinkActive]="['active-menu']" [routerLinkActiveOptions]="{exact:true}" routerLink="/page/{{menu.menu_route}}" class="btn_mobile btn  width_{{i+1}} links active cal_{{l+2}}">{{menu.menu_name}}</a>
+          <a [routerLinkActive]="['active-menu']" *ngIf="i==2" [routerLinkActiveOptions]="{exact:true}" routerLink="/promotion" class="btn_mobile btn  links cal_{{l+2}}" >โปรโมชั่น</a>
+      </ng-container>
+  </div>

@@ -1,0 +1,48 @@
+
+<div *ngIf="showHeader"  class="{{class_checkShow}}" >
+    <div _ngcontent-wsy-c0="" class="header-area">
+        <div _ngcontent-wsy-c0="" class="container">
+            <div _ngcontent-wsy-c0="" class="logo_area"><img _ngcontent-wsy-c0="" src="assets/images/logo/logo.png"></div>
+            <div _ngcontent-wsy-c0="" class="text_hearder">
+                <div _ngcontent-wsy-c0="" class="mobile_style"></div>
+                <div _ngcontent-wsy-c0="" class="pc_style">
+                    <div _ngcontent-wsy-c0="" class="qr_area"><img _ngcontent-wsy-c0="" src="assets/images/footer/qrcode.jpg"></div>
+                    <div _ngcontent-wsy-c0="" class="area_text">
+                        <div _ngcontent-wsy-c0="" class="contect_text"> ช่องทางการติดต่อ : @Premier999 </div>
+                        <div _ngcontent-wsy-c0="" class="tel_text"> เบอร์โทร : 099-999-9999 </div>
+                        <div _ngcontent-wsy-c0="" class="welcome_text"> WELCOME TO WWW.PREMIER.COM </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-navbar *ngIf="showHeader"></app-navbar>
+</div>
+
+<div class="content ">
+    <router-outlet></router-outlet>
+</div>
+
+<div _ngcontent-wsy-c0="" class="container">
+    <div _ngcontent-wsy-c0="" class="row sport_button">
+        <div _ngcontent-wsy-c0="" class="col no-padding padding_right0 aos-init aos-animate" data-aos="fade-down" data-aos-delay="200" data-aos-once="true" style="overflow: hidden">
+            <div _ngcontent-wsy-c0="" class="sport_img2 tt_l tt_col_c banner_hover Parent fadeInLeft animated"><img _ngcontent-wsy-c0="" class="tt_img_df" src="assets/images/content/banner_football.jpg"></div>
+        </div>
+        <div _ngcontent-wsy-c0="" class="col no-padding padding_lfet0 padding_right10 aos-init aos-animate" data-aos="fade-down" data-aos-delay="200" data-aos-once="true" style="overflow: hidden">
+            <div _ngcontent-wsy-c0="" class="casino_img2 tt_l tt_col_c banner_hover Parent fadeInLeft animated"><img _ngcontent-wsy-c0="" class="tt_img_df" src="assets/images/content/banner_casino.jpg"></div>
+        </div>
+    </div>
+    <div _ngcontent-wsy-c0="" class="row sport_button">
+        <div _ngcontent-wsy-c0="" class="col no-padding padding_right10 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" data-aos-once="true" style="overflow: hidden">
+            <div _ngcontent-wsy-c0="" class="ibanking tt_l tt_col_c banner_hover Parent fadeInLeft animated"><img _ngcontent-wsy-c0="" class="tt_img_df" src="assets/images/content/ibanking.jpg"></div>
+        </div>
+    </div>
+</div>
+<div class="m_footer col-xs-12">
+    <div class="col-xs-3" routerLink="/home"><img src="assets/images/footer/icon-home.png"></div>
+    <div class="col-xs-3" ><a href="http://line.me/ti/p/~@megarich88" target="_bank"><img src="assets/images/footer/icon-line.png"></a></div>
+    <div class="col-xs-3" routerLink="/promotion"><img src="assets/images/footer/icon_guide.png"></div>
+    <div class="col-xs-3" routerLink="/page/register" ><img src="assets/images/footer/icon_add.png"></div>
+</div>
+    <app-footer *ngIf="showHeader"></app-footer>
+

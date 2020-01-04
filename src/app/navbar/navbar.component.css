@@ -1,0 +1,220 @@
+.active-menu{
+  /* background-color: #ddd; */
+  /* text-decoration: underline; */
+  color: white !important;
+  
+}
+.topnav{
+background-color: #83001F;
+background-size: 100% 60px;
+padding-left:0px;
+padding-right: 0px;
+color:white;
+display: none;
+}
+.topnav .container{
+  overflow: unset;
+}
+
+.topnav_mobile{
+  float: left;
+  padding:5px;
+  text-align: center;
+  width: 100%;
+}
+.btn_mobile{
+  margin-right: 5px;
+  margin-top:5px;
+  width: 110px !important;
+  background-color: #FEC965;
+  color: wheat;
+  font-size: 14px;
+  background: rgba(99,26,24,1);
+  background: -moz-linear-gradient(left, rgba(99,26,24,1) 0%, rgba(167,57,55,1) 35%, rgba(167,57,55,1) 65%, rgba(99,26,24,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(99,26,24,1)), color-stop(35%, rgba(167,57,55,1)), color-stop(65%, rgba(167,57,55,1)), color-stop(100%, rgba(99,26,24,1)));
+  background: -webkit-linear-gradient(left, rgba(99,26,24,1) 0%, rgba(167,57,55,1) 35%, rgba(167,57,55,1) 65%, rgba(99,26,24,1) 100%);
+  background: -o-linear-gradient(left, rgba(99,26,24,1) 0%, rgba(167,57,55,1) 35%, rgba(167,57,55,1) 65%, rgba(99,26,24,1) 100%);
+  background: -ms-linear-gradient(left, rgba(99,26,24,1) 0%, rgba(167,57,55,1) 35%, rgba(167,57,55,1) 65%, rgba(99,26,24,1) 100%);
+  background: linear-gradient(to right, rgba(99,26,24,1) 0%, rgba(167,57,55,1) 35%, rgba(167,57,55,1) 65%, rgba(99,26,24,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#631a18', endColorstr='#631a18', GradientType=1 );
+}
+@media screen and (min-width: 1000px) {
+  .topnav{
+    display: block;
+  }
+  .topnav_mobile{
+    display: none;
+  }
+  .topnav .container{
+    width: 960px;
+    padding-right: 364px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  
+  .topnav .container{
+    width: 960px;
+    padding-right: 364px;
+  }
+ 
+}
+@media screen and (min-width: 1101px) {
+  .topnav{
+    /* padding-left:30px;
+    padding-right: 30px; */
+  }
+  /* .width_0{
+    width: 85px !important;
+  }
+  .width_2{
+    width: 130px !important;
+  }
+  .width_3{
+    width: 120px !important;
+  }
+  .width_4{
+    width: 130px !important;
+  } */
+  .width_5{
+    
+  }
+  /* .width_6{
+    width: 90px !important;
+  } */
+}
+@media screen and (min-width: 1200px) {
+  .topnav{
+    /* padding-left:100px;
+    padding-right: 100px; */
+  }
+  /* .width_0{
+    width: 90px !important;
+  }
+  .width_2{
+    width: 140px !important;
+  }
+  .width_3{
+    width: 102px !important;
+  }
+  .width_4{
+    width: 131px !important;
+  } */
+  .width_5{
+
+  }
+  /* .width_6{
+    width: 90px !important;
+  } */
+  .topnav .container{
+    width: 1140px;
+    padding-right: 364px;
+  }
+}
+
+@media screen and (min-width: 1354px) {
+  /* .width_0{
+    width: 90px !important;
+  }
+  .width_2{
+    width: 140px !important;
+  }
+  .width_3{
+    width: 130px !important;
+  }
+  .width_4{
+    width: 131px !important;
+  } */
+  .width_5{
+
+  }
+  /* .width_6{
+    width: 155px !important;
+  } */
+}
+
+
+@media screen and (min-width: 1400px) {
+  .topnav{
+    /* padding-left:200px;
+    padding-right: 200px; */
+  }
+  /* .width_0{
+    width: 90px !important;
+  }
+  .width_2{
+    width: 127px  !important;
+  }
+  .width_3{
+    width: 120px !important;
+  }
+  .width_4{
+    width: 121px !important;
+  } */
+  .width_5{
+
+  }
+  /* .width_6{
+    width: 90px  !important;
+  } */
+}
+
+@media screen and (min-width: 1500px) {
+  .topnav{
+    /* padding-left:200px;
+    padding-right: 200px; */
+  }
+  .topnav .container{
+    width: 1140px;
+    padding-right: 364px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .topnav{
+    /* padding-left:200px;
+    padding-right: 200px; */
+  }
+  .topnav .container{
+    width: 1140px;
+    padding-right: 364px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .topnav{
+    /* padding-left:300px;
+    padding-right: 300px; */
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .topnav{
+    /* padding-left:382px;
+    padding-right: 382px; */
+  }
+  /* .width_0{
+    width: 96px  !important;
+  }
+  .width_2{
+    width: 139px  !important;
+  }
+  .width_3{
+    width: 120px !important;
+  }
+  .width_4{
+    width: 121px !important;
+  } */
+  .width_5{
+   
+    padding-left:0px;
+    padding-right: 0px;
+  }
+  .topnav .container{
+    width: 1140px;
+    padding-right: 364px;
+  }
+  
+  /* .width_6{
+    width: 180px  !important;
+  } */
+}

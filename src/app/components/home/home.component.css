@@ -1,0 +1,1582 @@
+
+.carousel-item>img{
+    width: 100%;
+    height: 100%;
+}
+
+.contentArea{
+    border: 1px solid #D10000;
+    min-height: 952px;
+    margin-top:10px;
+}
+.top_banner{
+    min-height: 154px;
+}
+
+.content_area{
+    background-image: url('/assets/images/content/background_content.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding:0px  15px 15px 15px;
+    float: left;
+    position: relative;
+    border-top:3px solid #BD9A23;
+    
+}
+
+
+.area_1{
+    background-image: url('/assets/images/content/bg_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding:15px 15px 15px 15px;
+}
+.input_area_1{
+    margin-top:15px;
+}
+.area_1 .container{
+    background: unset;
+}
+
+.area_1 .text_1{
+    color: #EDD83B;
+    font-size: 1.2em;
+    text-align: center;
+    text-shadow: 2px 2px #363636;
+}
+.area_1  .text_2{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+.area_2{
+    background-image: url('/assets/images/content/bg_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+    padding:15px 15px 15px 15px;
+}
+.area_2 .container{
+    background: unset;
+}
+.area_2 .text_1{
+    color: #F66900;
+    font-size: 1.2em;
+    text-align: center;
+    text-shadow: 2px 2px #363636;
+}
+.area_2  .text_2{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+.text_1 .text_white{
+    color: white;
+}
+.area_3{
+    background-image: url('/assets/images/content/bg_3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    padding:15px 15px 15px 15px;
+}
+.area_3 .container{
+    background: unset;
+}
+.area_3 .text_1{
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+}
+.area_3  .text_2{
+    color: black;
+    font-size: 1em;
+    text-align: center;
+}
+.register_image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.register_image {
+   margin-top:20px;
+}
+.register_button_area img{
+    margin-top:15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    left: -15px;
+    position: relative;
+}
+/* .register_button_area img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    left: -34px;
+    position: relative;
+} */
+
+
+
+
+
+
+.area_4{
+    background-image: url('/assets/images/content/bg_4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    min-height: 624px;
+    height: auto;
+    padding:15px 15px 15px 15px;
+}
+.area_4 .container{
+    background: unset;
+}
+.area_4 .text_1{
+    color: white;
+    font-size: 2em;
+    text-align: right;
+    float: right;
+    
+}
+.whyplay_area{
+    float: right;
+    clear: both;
+}
+.whyplay_area img{
+    width: 100%;
+}
+.whyplay_img{
+    width: 100%;
+    max-width: 300px;
+}
+.text_inside{
+    float: right;
+    position: relative;
+    /* bottom: -62px; */
+    margin-right: 15px;
+}
+.img_inside{
+    float: right;
+}
+
+.area_5{
+    background-image: url('/assets/images/content/bg_5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    min-height: 450px;
+    height: auto;
+    padding:15px 15px 15px 15px;
+}
+.area_5 .container{
+    background: unset;
+}
+.area_5 .text_1{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+.area_5  .text_2{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+.area_6{
+    background: #101010;
+    width: 100%;
+    min-height: 450px;
+    height: auto;
+    padding:15px 15px 15px 15px;
+}
+.area_6 .container{
+    background: unset;
+}
+
+
+
+
+
+
+
+.area_btn_transfer{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+.deposit_btn{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    width:100%;
+}
+.withdraw_btn{
+    position: relative;
+    display: block;
+    margin-right: auto;
+    width: 100%;
+}
+.deposit_btn img{
+    position: relative;
+    right: 0;
+    width:100%;
+    max-width: 400px;
+}
+.withdraw_btn img{
+    position: relative;
+    left: 0;
+    width:100%;
+    max-width: 400px;
+}
+
+
+
+
+
+
+
+
+.register_detail{
+    display: none; 
+}
+.text-center-line {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #18FF00; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+/* .icon_menu {
+    float: left;
+    padding-bottom: 30px;
+    width: 100%;
+    margin-left: 0px;
+} */
+
+
+ .text-center-line span { 
+     padding:0 10px; 
+     background-color: black;
+     font-style:italic;
+ }
+.home_slide{
+    /* background-image: url('/assets/images/bg_slide/Slide2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+    float: left;
+    position: relative;
+    margin-top: 0px;
+    z-index: 1;
+    min-height: 150px;
+    top: 180px;
+}
+.home_slide{
+    top:unset;
+}
+.slideshow-container{
+    height: 200px !important;
+}
+.contentHeader{
+    background: #D10000;
+    color: white;
+    padding: 10px;
+    font-size: 1.6em;
+   
+}
+.callcenter{
+    background-image: url('/assets/images/content/callcenter.jpg');
+    width: 100%;
+    height: 150px;
+    background-size: 100% 100%;
+}
+.area_bank{
+    float: left;
+    width: 100%;
+    height: auto;
+    min-height: 140px;
+    background-color: #363636;
+}
+.img_bank{
+    background-image: url('/assets/images/content/banking.png');
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 300px;
+    background-size: 100% auto;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contentText{
+    color: white;
+    font-size: 1.1em;
+    padding:10px;
+}
+.area_text_bank{
+    float: left;
+    margin-top:30px;
+}
+.text_bank{
+    font-size: 2em;
+    color: white;
+    float: left;
+}
+.text_bank2{
+    font-size: 1em;
+    color: white;
+    float: left;
+    clear: both;
+}
+
+.area_text_des{
+    height: auto;
+    float: left;
+    min-height: 430px;
+    background-color: black;
+    padding:0 20px 0 20px;
+}
+.header1{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.header2{
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+.text_description{
+    color: #fff;
+    text-align: center;
+}
+.text_description_green{
+    margin-top:15px;
+    font-size: 1.5em;
+    color:#5DD812;
+    text-align: center;
+}
+.text_description_green2{
+    margin-top:48px;
+    font-size: 1em;
+    color:#5DD812;
+    text-align: center;
+    font-weight: 100;
+    float: left;
+}
+.area_line{
+    float: left;
+    width: 100%;
+}
+.phone_image{
+    background-image: url('/assets/images/content/tel.png');
+    background-repeat: no-repeat;
+    height: 59px;
+    width: 35px;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.line_image{
+    background-image: url('/assets/images/content/addfriend.png');
+    background-repeat: no-repeat;
+    height: 43px;
+    width: 169px;
+    float: left;
+    margin-top: 38px;
+    margin-bottom: 20px;
+    margin-left:10px;
+}
+
+.area_bottom_menu{
+    width: 100%;
+    float: left;
+    height: auto;
+    min-height: 300px;
+    border-top: #363636 solid 2px;
+    margin-top:15px;
+}
+.text_bottom_menu{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    margin-top:30px;
+    font-weight: 100;
+}
+
+
+
+.highlight{
+    color:#E8CF01;
+}
+.indent{
+    text-indent: 30px; margin-top: 0.63em
+}
+.indent2{
+    text-indent: 0px; margin-top: 1em
+}
+.indent3{
+    text-indent: 30px; margin-top: 0em
+}
+
+.newsArea{
+    height: auto;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    padding: 0px;
+    /* min-height: 300px; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.sportArea{
+    height: auto;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    padding: 0px;
+    /* min-height: 300px; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.cardNews{
+height: 100%;
+border: 2px solid #D2AE70;
+}
+.image-news{
+    height: calc( 100% - 70px );
+    background-size: cover;
+    background-position: center;
+}
+.text-news{
+    padding:10px;
+    border-top:1px solid #D2AE70;
+    color:white;
+    min-height: 50px;
+    
+}
+
+
+.home_slide .row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+     margin-right: unset;
+     margin-left: unset;
+    width: 100%;
+}
+
+.slide_and_btn .col-8{
+    flex:unset;
+    max-width: unset;
+}
+.slide_and_btn .col-4{
+    flex:unset;
+    max-width: unset;
+    height: 320px;
+    
+}
+
+.register_button{
+    /* background-image: url('/assets/images/content/register.png'); */
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    height: auto;
+    width: 100%;
+    margin-top:15px;
+    margin-bottom: 15px;
+    /* margin-left:10px; */
+}
+.register_button img{
+    height: auto;
+    width: 100%;
+}
+.deposit_button{
+    /* background-image: url('/assets/images/content/deposit.png'); */
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    height: auto;
+    width: 140px;
+    clear:left;
+    float: left;
+    position: absolute;
+    /* margin-left:10px; */
+}
+.deposit_button img{
+    height: auto;
+    width: 140px;
+}
+.withdrow_button{
+    /* background-image: url('/assets/images/content/WITHDRAW.png'); */
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    height: auto;
+    width: 140px;
+    float: left;
+    right:15px;
+    position: absolute;
+}
+.withdrow_button img{
+    height: auto;
+    width: 140px;
+}
+
+.text_howtoplay{
+    color: white;
+    font-size:1.5em;
+    margin-left:15px;
+    margin-right:15px;
+    /* margin-top:15px; */
+    border-bottom: 3px solid #18FF00;
+    margin-top: 15px;
+}
+.image_howtoplay{
+    width: 100%;
+    padding: 0px 15px 0 15px;
+    min-height: 100px;
+    display: none;
+}
+.login_area{
+    width:100%;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.login_btn{
+    background-color: #FD8F00;
+    color:white;
+    width: 140px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-left:15px;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.input-text{
+    margin-top:15px;
+    margin-left:15px;
+    width: calc( 100% - 30px);
+}
+
+.no-padding{
+    /* padding:unset; */
+    flex-grow: unset;
+    flex-basis:unset;
+}
+
+.sport_button{
+    margin-top:15px;
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+.sport_img img{
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sport_img2 img{
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.casino_img img{
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .casino_img2 img{
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .live_img img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.divMainContent{
+    overflow: hidden;
+    height: auto;
+    margin-top:15px;
+    color: #fff;
+}
+
+.h1text{
+    font-size: 1.2em;
+    color: white;
+}
+.detailRight{
+    border-top: 3px solid #1D1D1D;
+    float: left;
+    width: calc( 100% - 30px);
+    color:white;
+    text-align: center;
+    margin-left:15px;
+}
+.detailLeft{
+
+    margin-left:15px;
+    width: calc( 100% - 30px);
+    margin-top:15px;
+    float: left;
+}
+.howtoplay_casino_img img{
+    width: 100%;
+}
+.howtoplay_football_img img{
+    margin-top:15px;
+    width: 100%;
+}
+.banking_area{
+    display: none !important;
+}
+
+.tt_img_df.sport{
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+.tt_img_df.casino{
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+.tt_img_df.lotto{
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+.tt_img_df.game{
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+.tt_img_hover.sport{
+    width: 100%;min-height: 255px;
+}
+
+.detail_Left{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.detail_Left img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.content_text{
+    overflow: hidden;
+    text-align: center;
+    color: #363636;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: relative;
+    top: -36px;
+    width: 100%;
+}
+.LR_area{
+    overflow: hidden;
+}
+
+
+
+.detail_Right{
+    width: 100%;
+    float: left;
+    color: white;
+    font-weight: 100;
+}
+.control-group{
+    margin-top:15px;
+}
+
+@media screen and (min-width: 375px) {
+
+    .sport_img img{
+        width: 100%;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 400px;
+    }
+    .sport_img2 img{
+        width: 100%;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .casino_img img{
+        width: 100%;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 400px;
+     }
+     .casino_img2 img{
+        width: 100%;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .live_img img{
+        width: 100%;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 400px;
+     }
+
+    .register_button{
+        height: auto;
+        width:326px;
+        margin-left:10px;
+    }
+
+    .deposit_button{
+        height: 160px;
+        width: 153px;
+        margin-left:10px;
+    }
+    .withdrow_button{
+        height: 160px;
+        width: 153px;
+        margin-right:0px;
+    }
+    .howtoplay_casino_img img{
+        width: 332px;
+        margin-left:5px;
+    }
+    .howtoplay_football_img img{
+        width: 332px;
+        margin-left:5px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 425px) {
+    .register_button{
+        height: auto;
+        margin-left:35px;
+    }
+    .howtoplay_casino_img img{
+        margin-left: calc( 50% - 166px);
+    }
+    .howtoplay_football_img img{
+        margin-left: calc( 50% - 166px);
+    }
+    .slide_and_btn .col-4{
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .register_button_area img{
+        width: 60%;
+        left: -25px;
+    }
+    .deposit_btn{
+        width:95%;
+    }
+    .withdraw_btn{
+        margin-right: unset;
+        margin-left: auto;
+        width: 95%;
+    }
+    .register_button{
+        height: auto;
+        margin-left: calc( 50% - 160px);
+    }
+    .deposit_button{
+        height: auto;
+        width: 220px;
+        margin-left:0px;
+        margin-left: calc( 50% - 174px);
+    }
+    .withdrow_button{
+        height: auto;
+        width: 220px;
+        margin-left:0px;
+        margin-right: calc( 50% - 260px);
+    }
+    .slide_and_btn .col-4{
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .deposit_btn{
+        width:90%;
+    }
+    .withdraw_btn{
+        margin-right: unset;
+        margin-left: auto;
+        width: 90%;
+    }
+    .register_button{
+        height: auto;
+    }
+    .deposit_button{
+        height: auto;
+        width: 141px;
+        margin-left: calc( 50% - 174px);
+    }
+    .withdrow_button{
+        height: auto;
+        width: 141px;
+        margin-right: calc( 50% - 184px);
+    }
+    .slide_and_btn .col-4{
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 580px) {
+    .register_button{
+       width: 300px;
+       height: auto;
+       margin-bottom:0px;
+    }
+    
+    .deposit_button{
+        height: auto;
+        width: 141px;
+        margin-top:15px;
+        margin-left: calc( 50% - 174px);
+    }
+    .withdrow_button{
+        height: auto;
+        width: 141px;
+        margin-top:15px;
+        margin-right: calc( 50% - 156px);
+    }
+    .slide_and_btn .col-4{
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .deposit_btn{
+        width:85%;
+    }
+    .withdraw_btn{
+        margin-right: unset;
+        margin-left: auto;
+        width: 85%;
+    }
+    .image_howtoplay{
+        padding:unset;
+        display: block;
+    }
+    .text_howtoplay{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .login_area{
+        margin-left: -15px;
+    }
+    .container{
+        /* max-width: unset; */
+        max-width: 640px;
+    }
+    .home_slide{
+        /* padding-left:30px;
+        padding-right: 30px;
+        padding-top:15px; */
+    }
+    .home_slide .row {
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+         margin-right: -15px;
+         margin-left: -15px;
+         width: unset;
+    }
+    .register_button{
+        width: 194px;
+        margin-top: 0px;
+        height: 71px;
+        margin-left:0px;
+        float: unset;
+    }
+    .deposit_button{
+        height: auto;
+        width: 95px;
+        margin-left:0px;
+        float: unset;
+        position: absolute;
+    }
+    .deposit_button img{
+        height: auto;
+        width: 95px;
+    }
+    .withdrow_button{
+        height: auto;
+        width: 95px;
+        margin-left:10px;
+        float: unset;
+        position: absolute;
+        right: 8px;
+        left: 90px;
+    }
+    .withdrow_button img{
+        height: auto;
+        width: 95px;
+    }
+    .slide_and_btn .col-8{
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+        /* padding:unset;  */
+    }
+    .slide_and_btn .col-4{
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        height: auto;
+        padding:unset;
+        /* padding:unset;  */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .top_banner{
+        min-height: unset;
+    }
+    .no-padding{
+        padding:unset;
+    }
+    
+    .content_text{
+        overflow: hidden;
+        text-align: center;
+        color:#363636;
+        font-size: 1.5em;
+        font-weight: bold;
+        position: relative;
+        top: -40px;
+        width: 100%;
+    }
+    .detail_Left img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .header_bar img{
+        display: block;
+    }
+    .register_button_area img{
+        width: 40%;
+        left: -30px;
+    }
+    .area_btn_transfer{
+        margin: auto;
+        width: 100%;
+        padding: 10px;
+    }
+    .deposit_btn{
+        position: relative;
+        display: block;
+        margin-left: auto;
+        width:78%;
+    }
+    .deposit_btn img{
+        position: relative;
+        right: 0;
+        width:100%;
+        max-width: 400px;
+    }
+    .withdraw_btn{
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: unset;
+        width: 78%;
+    }
+    .withdraw_btn img{
+        position: relative;
+        right: 0;
+        width:100%;
+        max-width: 400px;
+    }
+
+
+    .detail_Left{
+        width: 20%;
+        float: left;
+        text-align: center;
+    }
+    
+    .detail_Right{
+        width: calc( 80% - 30px);
+        margin-left:30px;
+        float: left;
+        
+    }
+
+    .sport_img img{
+        width: 100%;
+        padding-right: 5px;
+        margin-left: auto;
+        margin-right: unset;
+    }
+    .sport_img2 img{
+        width: 100%;
+        padding-right: 5px;
+        margin-left: auto;
+        margin-right: unset;
+    }
+    .casino_img img{
+        width: 100%;
+        padding-right: 5px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .casino_img2 img{
+        width: 100%;
+        padding-right: 5px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .live_img img{
+        width: 100%;
+        padding-right: 5px;
+        margin-left: unset;
+        margin-right: unset;
+     }
+
+
+
+    .detailRight{
+        float: right;
+        width: calc( 100% - 352px) ;
+        padding-top:30px;
+        text-align: left;
+        font-weight: 100;
+        margin-left: 0px;
+    }
+    .detailLeft{
+        float: left;
+        width: 332px;
+        margin-top: 0px;
+        margin-left: 0px;
+        
+    }
+    .banking_area{
+        display: block !important;
+    }
+    .banking_img{
+        margin-top:10px;
+    }
+    .banking_img img{
+        width:100%;
+    }
+    .howtoplay_casino_img{
+        float: left;
+    }
+    .howtoplay_football_img{
+        /* margin-top:10px; */
+        float: left;
+    }
+
+
+    .no-padding{
+        flex-basis:0;
+        flex-grow: 1;
+    }
+    .login_btn{
+        background-color: #FD8F00;
+        color:white;
+        width: 140px;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 1.2em;
+        margin-left:15px;
+        margin-top:15px;
+        margin-bottom: 0px;
+        float: left;
+        height: 38px;
+        padding-top:6px;
+    }
+    
+    .input-text{
+        margin-top:15px;
+        margin-left:15px;
+        width: 250px;
+        float: left;
+    }
+
+
+    .container{
+        /* max-width: unset; */
+        max-width: 768px;
+    }
+  
+    .register_button{
+        width: 230px;
+        margin-top:0px;
+        height: 85px;
+        margin-left:0px;
+        float: unset;
+    }
+    .deposit_button{
+        height: auto;
+        width: 110px;
+        margin-left:0px;
+        float: unset;
+        position: absolute;
+    }
+    .deposit_button img{
+        width: 110px;
+    }
+    .withdrow_button{
+        height: auto;
+        width: 110px;
+        margin-left:0px;
+        float: unset;
+        position: absolute;
+        right: 48px;
+        left: unset;
+    }
+    .withdrow_button img{
+        width: 110px;
+    }
+    .slide_and_btn .col-8{
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+        /* padding:unset;  */
+    }
+    .slide_and_btn .col-4{
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        height: auto;
+        padding:unset;
+        /* padding:unset;  */
+    }
+}
+@media (min-width: 992px){
+    .text_howtoplay{
+        margin-left:0px;
+    }
+
+    .login_btn{
+        width: 240px;
+    }
+   
+    .input-text{
+        margin-top:15px;
+        margin-left:15px;
+        width: 300px;
+        float: left;
+    }
+
+
+
+
+    .register_button{
+        width: 300px;
+        margin-top:0px;
+        height: 120px;
+        margin-left:0px;
+        float: unset;
+    }
+    .deposit_button{
+        height: auto;
+        width: 130px;
+        margin-left:0px;
+        float: unset;
+        position: absolute;
+        margin-top: 0px;
+    }
+    .deposit_button img{
+        height: auto;
+        width: 130px;
+    }
+    .withdrow_button{
+        height: auto;
+        width: 130px;
+        margin-left:0px;
+        float: unset;
+        position: absolute;
+        margin-top: 0px;
+        right: 10px;
+    }
+    .withdrow_button img{
+        height: auto;
+        width: 130px;
+    }
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .text_inside{
+        bottom: -62px;
+    }
+    .area_1{
+        min-height: 550px;
+    }
+    .area_2{
+        min-height: 550px;
+    }
+    .area_1 .text_1{
+        font-size: 2em;
+        line-height: 1.3;
+    }
+    .area_1  .text_2{
+        font-size: 1.2em;
+        line-height: 2;
+    }
+    .area_2 .text_1{
+        font-size: 2.5em;
+        line-height: 1.3;
+        margin-bottom: 20px;
+    }
+    .area_2 .text_2{
+        font-size: 1.5em;
+        line-height: 1.8;
+    }
+    .area_3{
+        min-height: 700px;
+    }
+    .area_3 .text_1{
+        font-size: 2.5em;
+        line-height: 1.3;
+        margin-bottom: 15px;
+    }
+    
+    .area_3 .text_2{
+        font-size: 1.2em;
+        line-height: 1.8;
+    }
+    
+
+    .area_btn_transfer{
+        margin: auto;
+        width: 100%;
+        padding: 10px;
+        margin-top: 30px;
+    }
+    .deposit_btn{
+        position: relative;
+        display: block;
+        margin-left: auto;
+        width: 40%;
+    }
+    .deposit_btn img{
+        position: absolute;
+        right: 0;
+        width:100%;
+        max-width: 400px;
+    }
+    .withdraw_btn{
+        position: relative;
+        display: block;
+        margin-right: auto;
+        width: 40%;
+    }
+    .withdraw_btn img{
+        position: relative;
+        left: 0;
+        width:100%;
+        max-width: 400px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .h1text{
+        font-size: 2.2em;
+    }
+    .detailRight{
+        font-size: 1.2em;
+    }
+    .register_button{
+        width: 300px;
+        margin-top:0px;
+        height: 120px;
+        margin-left:0px;
+        float: unset;
+    }
+    .deposit_button{
+        height: 130px;
+        width: 130px;
+        margin-left:0px;
+        float: unset;
+        position: absolute;
+        margin-top: 0px;
+    }
+    .withdrow_button{
+        height: 130px;
+        width: 130px;
+        margin-left:0px;
+        float: unset;
+        position: absolute;
+        margin-top: 0px;
+        right: 16px;
+    }
+    
+    .container {
+        max-width: 960px;
+    }
+    
+    .home_slide .row {
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+         margin-right: -15px;
+         margin-left: -15px;
+         width: unset;
+    }
+    .slide_and_btn{
+        padding-top:15px;
+        padding-left:15px;
+        padding-bottom: 15px;
+        padding-right: 15px;
+    }
+    .callcenter{
+        height: 350px;
+    }
+    .contentArea{
+      margin-top:0px;
+    }
+    .contentArea{
+        border: 1px solid #D10000;
+    }
+    .img_bank{
+        float: left;
+        margin-left:40px;
+        width: 428px;
+    }
+    .area_text_bank{
+        margin-left:80px;
+    }
+    .text_description_green2{
+        font-size: 1.5em;
+    }
+    .area_line{
+        float: left;
+        margin-left: 120px;
+        width: 100%;
+    }
+    
+   }
+   
+   @media screen and (min-width: 1024px) {
+    .register_button_area img{
+        width: 30%;
+        left: -30px;
+    }
+   }
+   
+   @media screen and (min-width: 1100px) {
+    .text_howtoplay{
+        margin-top: 0px;
+    }
+    .home_slide{
+        padding: 0px !important;
+        /* margin-top: -140px; */
+        z-index: 0;
+    }
+   }
+   
+   
+@media screen and (min-width: 1200px) {
+    .tt_img_df.sport{
+        width: 100%;
+        
+    }
+    
+    .tt_img_df.casino{
+        width: 100%;
+    }
+    
+    .tt_img_df.lotto{
+        width: 100%;
+    }
+    
+    .tt_img_df.game{
+       width: 100%;
+    }
+
+
+    .deposit_button img{
+        height: auto;
+        width: 154px;
+    }
+    .withdrow_button img{
+        height: auto;
+        width: 154px;
+    }
+    .h1text{
+        font-size: 2em;
+    }
+    .detailRight{
+        font-size: 1.4em;
+    }
+    .login_btn{
+        width: 320px;
+    }
+    .sport_img img{
+        width: 100%;
+        padding-right:5px;
+    }
+    .sport_img2 {
+        border-top:3px solid #BD9A23;
+    }
+    .sport_img2 img{
+        width: 100%;
+        padding-right:5px;
+    }
+    .casino_img img{
+        width: 100%;
+        padding-right:5px;
+    }
+    .casino_img2 {
+        border-top:3px solid #BD9A23;
+    }
+    .casino_img2 img{
+        width: 100%;
+        padding-right:5px;
+    }
+     .live_img img{
+         width: 100%;
+         padding-right:5px;
+         /* margin-left: 30px; */
+         /* float: right; */
+     }
+   
+    .input-text{
+        margin-top:15px;
+        margin-left:15px;
+        width: 308px;
+        float: left;
+    }
+    .register_button{
+        /* width: 355px; */
+        width: 326px;
+        margin-top:0px;
+        height: 130px;
+        margin-left:0px;
+        float: unset;
+    }
+    .deposit_button{
+        height: 150px;
+        width: 150px;
+        margin-left:0px;
+        float: unset;
+        position: absolute;
+        margin-top: 0px;
+    }
+    .withdrow_button{
+        height: 150px;
+        width: 150px;
+        margin-left:0px;
+        float: unset;
+        position: absolute;
+        margin-top: 0px;
+        right: 2px;
+    }
+
+    .container{
+        max-width: 1140px;
+    }
+    .home_slide{
+        padding-left:30px;
+        padding-right: 30px;
+        /* height: 430px; */
+    }
+    .contentHeader{
+        margin-top:0px;
+    }
+    .text_description_green2{
+        margin-top:30px;
+        font-size: 2.5em;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .LR_area{
+       margin-top: -80px;
+    }
+    .LR_area .detail_Right{
+        margin-top: 80px;
+    }
+    .home_slide{
+        /* height: 430px; */
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .home_slide{
+        /* border-left: 3px solid #1D1D1D;
+        border-right: 3px solid #1D1D1D;
+        border-bottom: 3px solid #1D1D1D; */
+    }
+}
